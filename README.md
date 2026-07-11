@@ -29,7 +29,7 @@ superstore-sales-analysis/
 ├── notebooks/
 │   └── superstore_analysis.ipynb
 │
-└── images/
+└── Visualization/
 
 ## 🔍 Analysis Overview
 
