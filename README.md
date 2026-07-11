@@ -66,7 +66,6 @@ superstore-sales-analysis/
 ### Monthly Sales Trend
 ![Total Sales by Month](Visualization/total_sales_by_order_month.png)
 
-*(Add 2-3 of your best charts here as images — see instructions below)*
 
 
 ## 🚀 How to Run
