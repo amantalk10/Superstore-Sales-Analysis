@@ -1,12 +1,12 @@
-# 📊 Superstore Sales & Profitability Analysis
+# Superstore Sales & Profitability Analysis
 
 An end-to-end data analytics project analyzing sales performance, profitability, and customer behavior for a retail superstore, using Python. The project covers data cleaning, exploratory data analysis, and business insight generation, culminating in actionable recommendations to improve profitability.
 
-## 🎯 Business Problem
+## Business Problem
 
 A retail superstore wants to understand which products, regions, and customers drive profitability — and where discounting practices may be eroding margins — in order to make informed decisions on pricing, inventory, and customer retention strategy.
 
-## 🛠️ Tools & Libraries
+## Tools & Libraries
 
 - Python
 - Pandas
@@ -14,7 +14,7 @@ A retail superstore wants to understand which products, regions, and customers d
 - Matplotlib
 - Jupyter Notebook
 
-## 📁 Project Structure
+## Project Structure
 
 superstore-sales-analysis/
 │
@@ -31,14 +31,14 @@ superstore-sales-analysis/
 │
 └── Visualization/
 
-## 🔍 Analysis Overview
+## Analysis Overview
 
 1. **Data Cleaning** — handled data type conversions, standardized column names, checked for duplicates
 2. **Feature Engineering** — extracted year/month from order dates, calculated profit margin
 3. **Exploratory Data Analysis** — sales and profit by category, sub-category, and region; discount vs. profit relationship; monthly/yearly sales trends; top customer analysis
 4. **Business Insights & Recommendations** — translated findings into concrete, data-backed action items
 
-## 💡 Key Insights
+## Key Insights
 
 - Orders with discounts above 30% are overwhelmingly unprofitable, with losses intensifying sharply beyond 50%
 - Furniture is the weakest-performing category (~2.5% margin vs. ~17% for Technology/Office Supplies), driven by heavy discounting in Tables and Bookcases
@@ -47,7 +47,7 @@ superstore-sales-analysis/
 - Sales grew ~51% from 2015 to 2017, with strong seasonality peaking in September, November, and December
 - The top 10 customers (1.3% of the customer base) generate 6.7% of total revenue
 
-## ✅ Recommendations
+## Recommendations
 
 1. Cap discounts at 20–30% for Furniture, particularly Tables and Bookcases
 2. Reduce Central region's average discount toward the 10–15% range used by higher-performing regions
@@ -55,7 +55,7 @@ superstore-sales-analysis/
 4. Expand marketing focus on Copiers and the broader Technology category
 5. Introduce a loyalty/VIP program for top revenue-generating customers
 
-## 📈 Sample Visualizations
+## Sample Visualizations
 
 ### Discount vs. Profit Relationship
 ![Discount vs Profit](Visualization/discount_vs_profit.png)
@@ -68,13 +68,13 @@ superstore-sales-analysis/
 
 
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repository
 2. Install dependencies: `pip install -r requirements.txt`
 3. Open `notebooks/superstore_analysis.ipynb` in Jupyter Notebook
 4. Run all cells
 
-## 📌 Dataset
+## Dataset
 
 [Sample Superstore Dataset](https://www.kaggle.com/datasets) — retail transaction data including sales, profit, discount, category, region, and customer information.
